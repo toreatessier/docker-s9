@@ -3,6 +3,8 @@
 
 ## Verification de l'infra avec docker-compose
 ```
+git clone https://github.com/toreatessier/docker-s9.git
+cd docker-s9/
 ./build.sh pour obtenir mes images
 docker-compose up -d
 http://127.0.0.1:8080 ou IP_du_serveur_docker:8080 dans un naviguateur
@@ -11,13 +13,12 @@ http://127.0.0.1:8080 ou IP_du_serveur_docker:8080 dans un naviguateur
 
 ## Verification de l'infra sans docker-compose :
 ```
+git clone https://github.com/toreatessier/docker-s9.git
+cd docker-s9/
 ./build.sh
 ./run.sh
 http://127.0.0.1:8080 ou IP_du_serveur_docker:8080 dans un naviguateur
 ```
-  2.1 ./build.sh
-  2.2 ./run.sh
-  2.3 http://127.0.0.1:8080 ou IP du serveur docker:8080 dans un naviguateur
 
 
 **Important** :  Sans docker-compose, il faut hardcoder l'ip de la DB dans webapp/superapp.php (pas le choix). 
