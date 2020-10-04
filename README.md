@@ -5,8 +5,8 @@
 ```
 git clone https://github.com/toreatessier/docker-s9.git
 cd docker-s9/
-./build.sh pour obtenir mes images
-docker-compose up -d
+sudo ./build.sh pour obtenir mes images
+sudo docker-compose up -d
 http://127.0.0.1:8080 ou IP_du_serveur_docker:8080 dans un naviguateur
 ```
 
@@ -15,8 +15,8 @@ http://127.0.0.1:8080 ou IP_du_serveur_docker:8080 dans un naviguateur
 ```
 git clone https://github.com/toreatessier/docker-s9.git
 cd docker-s9/
-./build.sh
-./run.sh
+sudo ./build.sh
+sudo ./run.sh
 http://127.0.0.1:8080 ou IP_du_serveur_docker:8080 dans un naviguateur
 ```
 
